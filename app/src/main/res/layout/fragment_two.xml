@@ -1,0 +1,48 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_marginTop="100px"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_marginLeft="10px"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:text="Lingkaran"
+        android:textSize="35px"/>
+    <Button
+        android:id="@+id/pp"
+        android:textSize="35px"
+        android:layout_width="350px"
+        android:layout_height="150px"
+        android:text="Persegi Panjang"/>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/ll"
+        android:textSize="35px"
+        android:layout_marginLeft="10px"
+        android:text="Layang-Layang"
+        android:layout_width="350px"
+        android:layout_height="150px" />
+    <Button
+        android:id="@+id/segitiga"
+        android:textSize="35px"
+        android:text="Segitiga"
+        android:layout_width="350px"
+        android:layout_height="150px" />
+</LinearLayout>
+
+</LinearLayout>
