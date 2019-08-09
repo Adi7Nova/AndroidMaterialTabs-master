@@ -11,15 +11,15 @@ import info.androidhive.materialtabs.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Toolbar toolbar;
+    //private Toolbar toolbar;
     private Button btnSimpleTabs, btnScrollableTabs, btnIconTextTabs, btnIconTabs, btnCustomIconTextTabs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
         btnSimpleTabs = (Button) findViewById(R.id.btnSimpleTabs);
         btnScrollableTabs = (Button) findViewById(R.id.btnScrollableTabs);

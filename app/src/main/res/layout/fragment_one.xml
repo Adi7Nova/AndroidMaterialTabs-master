@@ -28,6 +28,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:background="#CA4F4F"
             android:id="@+id/plus"
             android:layout_width="250px"
             android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
             android:textSize="72px" />
 
         <Button
+            android:background="#8DA8E7"
             android:id="@+id/kali"
             android:layout_width="250px"
             android:layout_height="wrap_content"
@@ -49,6 +51,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:background="#8DA8E7"
             android:id="@+id/minus"
             android:layout_width="250px"
             android:layout_height="wrap_content"
@@ -56,6 +59,7 @@
             android:textSize="72px" />
 
         <Button
+            android:background="#CA4F4F"
             android:id="@+id/divide"
             android:layout_width="250px"
             android:layout_height="wrap_content"
